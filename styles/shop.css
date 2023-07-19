@@ -44,8 +44,8 @@
 
 .feature-item {
     margin-top: 140px;
-    margin-right: 240px;
-    margin-left: 240px;
+    /* margin-right: 240px;
+    margin-left: 240px; */
 }
 
 .feature-title {
@@ -67,8 +67,8 @@
 
 .image-container {
     margin-top: 40px;
-    /* margin-right: 240px;
-    margin-left: 240px; */
+    margin-right: 240px;
+    margin-left: 240px;
     display: flex;
     justify-content: space-between;
     gap: 25px;
@@ -154,8 +154,7 @@
 
 .insta {
     margin-top: 140px;
-    margin-right: 240px;
-    margin-left: 240px;
+    
 }
 
 .insta-contents {
