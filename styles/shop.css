@@ -1,12 +1,16 @@
 .heading {
-    padding: 200px 240px 150px 240px;
+    width: 1420px;
+    height: 800px;
+    flex-shrink: 0;
+    padding: 140px 240px 0px 240px;
     display: flex;
     background: rgba(229, 84, 115, 0.10);
+    justify-content: space-between;
 }
 
 .head-title {
     color: #272727;
-    font-size: 50px;
+    font-size: 80px;
     font-weight: 800;
 }
 
@@ -32,7 +36,8 @@
 }
 
 .flower {
-    padding: 0px 0px 0px 75px;
+    margin-right: 240px;
+    width: 30%;
 }
 
 /* featured section */
@@ -42,43 +47,45 @@
 }
 
 .feature-title {
-    color: #272727;
     text-align: center;
+    color: #272727;
     font-size: 40px;
     font-weight: 800;
 }
 
 .feature-content {
     color: rgba(39, 39, 39, 0.60);
-    text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    margin-left: 440px;
-    margin-right: 440px;
+    /* padding-left: 600px; */
+    text-align: center;
+
 }
 
 .image-container {
-    display: flex;
+    margin-top: 40px;
+    margin-right: 2400px;
     margin-left: 240px;
-    margin-right: 240px;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+
 }
 
 #img1 {
-    width: 150px;
-    height: 230px;
+    width: 300px;
+    height: 350px;
     flex-shrink: 0;
-    margin: 25px;
     padding: 140px 75px 0px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
 }
 
 #img2 {
-    width: 220px;
-    height: 230px;
+    width: 380px;
+    height: 350px;
     flex-shrink: 0;
-    margin: 20px;
     padding: 100px 35px 40px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
@@ -86,10 +93,9 @@
 }
 
 #img3 {
-    width: 150px;
-    height: 230px;
+    width: 300px;
+    height: 350px;
     flex-shrink: 0;
-    margin: 20px;
     padding: 100px 75px 40px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
@@ -102,12 +108,15 @@
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
-    margin-top: 0px;
+    margin-top: 20px;
 }
 
 /* offer section */
 
 .offer {
+    width: 1922px;
+    height: 620px;
+    flex-shrink: 0;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     display: flex;
@@ -116,7 +125,7 @@
 
 .offer-contents {
     text-align: center;
-    width: 65%;
+    /* width: 65%; */
     margin-top: 140px;
     margin-left: 200px;
 }
@@ -127,37 +136,172 @@
     font-weight: 800;
 }
 
-.off{
+.off {
     color: #E55473;
 }
 
-.offer-detail{
+.offer-detail {
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 /* instagram section */
 
-.insta{
+.insta {
     margin-top: 140px;
 }
 
-.insta-contents{
+.insta-contents {
     text-align: center;
 }
 
-.insta-pic{
+.insta-pic {
     margin-top: 40px;
     display: flex;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 2400px;
+    margin-left: 240px;
+    justify-content: space-between;
+    gap: 25px;
 }
 
-.pic{
-    width: 20px;
-    height: 50px;
-    margin: 15px;
+.instagram {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
 }
+
+.insta-detail {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.deals {
+    width: 1440px;
+    height: 349px;
+    flex-shrink: 0;
+    margin-top: 140px;
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    padding-top: 80px;
+    text-align: center;
+    justify-content: space-around;
+    margin-left: 240px;
+    margin-right: 240px;
+}
+
+.deal-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.coupon {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.subscibe {
+    display: flex;
+}
+
+.subscribe-mail {
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 100px;
+}
+
+/* purchase section */
+
+.purchase{
+    margin-top: 140px;
+    border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+width: 1922px;
+height: 620px;
+flex-shrink: 0;
+background-image: url('../Flower Asset/shop2.png');
+background-repeat: no-repeat;
+background-size: 1922px 620px;
+
+}
+
+.purchase-title{
+    padding-top: 120px;
+    color: #272727;
+text-align: center;
+font-size: 40px;
+font-weight: 800;
+}
+
+.buyer-detail{
+    padding-left: 400px;
+}
+.form{
+    width: 1000px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 0;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 10px;
+    color: #757575;
+    padding-left: 50px;
+
+}
+
+/* footer styles */
+
+.flowershop {
+    text-align: center;
+    background-color: #111010;
+    width: 1922px;
+    height: 449px;
+    flex-shrink: 0;
+    margin-top: 140px;
+}
+
+.footer-title {
+    padding-top: 140px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.footer-content {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
