@@ -140,3 +140,24 @@ line-height: 30px;
 }
 
 /* instagram section */
+
+.insta{
+    margin-top: 140px;
+}
+
+.insta-contents{
+    text-align: center;
+}
+
+.insta-pic{
+    margin-top: 40px;
+    display: flex;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.pic{
+    width: 20px;
+    height: 50px;
+    margin: 15px;
+}
